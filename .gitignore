@@ -1,0 +1,7 @@
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/Assets/Sandevistan_Installed*
+/Assets/Sandevistan_Depth*
+*.unitypackage

@@ -1,0 +1,3 @@
+/Assets/Sandevistan/** -text
+/Assets/Sandevistan.meta -text
+*.meta whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
