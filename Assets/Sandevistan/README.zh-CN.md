@@ -1,6 +1,10 @@
-# 斯安威斯坦 · PC Avatar 工具 v5.7
+# 斯安威斯坦 · PC Avatar 工具 v5.7.2
+
+by：**ずっと子都**
 
 唯一入口：`Tools > Sandevistan...`。窗口包含“安装 / 移动测试 / 材质预览”三个页签。需要 Unity 2022.3、VRChat Avatars PC SDK、Modular Avatar 与 NDMF。
+
+在缺少依赖的普通 Unity 工程中，仍可打开此窗口。点击「安装」「移动测试」或「材质预览」会弹出缺失依赖提示。
 
 ## 安装
 

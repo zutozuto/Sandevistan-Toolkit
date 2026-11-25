@@ -1,8 +1,10 @@
 # 斯安威斯坦 · Sandevistan Toolkit
 
+by：**ずっと子都**
+
 面向 VRChat PC Avatar 的 Unity 残影工具。角色移动时按距离留下历史骨骼姿势，停步后已有残影逐渐消失。支持减面代理和保留原网格及主色贴图，可预览透明度、渐变染色、菲涅尔发光和发光线纹。
 
-[下载 v5.7 Unity 安装包](https://github.com/zutozuto/Sandevistan-Toolkit/releases/download/v5.7/Sandevistan_Toolkit_v5.7_PC.unitypackage)
+[下载 v5.7.2 Unity 安装包](https://github.com/zutozuto/Sandevistan-Toolkit/releases/download/v5.7.2/Sandevistan_Toolkit_v5.7.2_PC.unitypackage)
 
 ## 快速开始
 

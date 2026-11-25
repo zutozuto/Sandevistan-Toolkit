@@ -6,7 +6,10 @@ namespace Sandevistan
 {
     // Build metadata only. Consumed and removed by the NDMF pass before upload.
     [AddComponentMenu("")]
-    public sealed class SandevistanVisibility : MonoBehaviour, VRC.SDKBase.IEditorOnly
+    public sealed class SandevistanVisibility : MonoBehaviour
+#if SANDEVISTAN_VRC_BASE
+        , VRC.SDKBase.IEditorOnly
+#endif
     {
         [Serializable] public sealed class Binding { public Renderer source; public SkinnedMeshRenderer proxy; public bool preserveMesh; public Material sourceMaterial; }
         [Serializable] public sealed class InstallationSettings

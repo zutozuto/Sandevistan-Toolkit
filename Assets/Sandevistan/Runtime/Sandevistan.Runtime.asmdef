@@ -1,0 +1,13 @@
+{
+  "name": "Sandevistan.Runtime",
+  "references": [],
+  "includePlatforms": [],
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.vrchat.base",
+      "expression": "",
+      "define": "SANDEVISTAN_VRC_BASE"
+    }
+  ]
+}

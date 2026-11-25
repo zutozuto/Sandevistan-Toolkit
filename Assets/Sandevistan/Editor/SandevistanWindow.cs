@@ -53,6 +53,7 @@ namespace Sandevistan.Editor
         void OnGUI()
         {
             EnsurePanels();
+            EditorGUILayout.LabelField("by：ずっと子都", EditorStyles.boldLabel);
             int next=GUILayout.Toolbar(tab,new[]{"安装","移动测试","材质预览"},GUILayout.Height(28));
             if(next!=tab)SelectTab(next);
             EditorGUILayout.Space(6);

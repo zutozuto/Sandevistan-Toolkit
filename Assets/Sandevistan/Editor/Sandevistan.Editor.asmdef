@@ -1,0 +1,38 @@
+{
+  "name": "Sandevistan.Editor",
+  "references": [
+    "Sandevistan.Runtime",
+    "nadena.dev.ndmf"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "defineConstraints": [
+    "SANDEVISTAN_VRC_BASE",
+    "SANDEVISTAN_VRC_AVATARS",
+    "SANDEVISTAN_NDMF",
+    "SANDEVISTAN_MODULAR_AVATAR"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.vrchat.base",
+      "expression": "",
+      "define": "SANDEVISTAN_VRC_BASE"
+    },
+    {
+      "name": "com.vrchat.avatars",
+      "expression": "",
+      "define": "SANDEVISTAN_VRC_AVATARS"
+    },
+    {
+      "name": "nadena.dev.ndmf",
+      "expression": "",
+      "define": "SANDEVISTAN_NDMF"
+    },
+    {
+      "name": "nadena.dev.modular-avatar",
+      "expression": "",
+      "define": "SANDEVISTAN_MODULAR_AVATAR"
+    }
+  ]
+}
